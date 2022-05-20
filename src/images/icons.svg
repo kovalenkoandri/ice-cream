@@ -1,7 +1,13 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-menu" viewBox="0 0 46 32">
+<symbol id="icon-arrow-right" viewBox="0 0 26 32">
+<path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.54 3.202l16.834 12.806-16.834 12.806"></path>
+</symbol>
+<symbol id="icon-menu" viewBox="0 0 46 32" >
 <path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 2.293h45.737M0 16.014h45.737M0 29.735h45.737"></path>
+</symbol>
+<symbol id="icon-close" viewBox="0 0 32 32" >
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M2.52 2l26.965 28.005M2 29.485l28.005-26.965"></path>
 </symbol>
 </defs>
 </svg>

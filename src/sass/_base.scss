@@ -1,11 +1,10 @@
 /*==============global style reset============= */
 body {
-  font-family: 'Gothic A1', sans-serif;
+  // font-family: 'Gothic A1', sans-serif;
   font-weight: 400;
   max-width: 1440px;
   margin: 0 auto;
   font-size: 0;
-  border: none;
 }
 h1,
 h2,
@@ -13,20 +12,18 @@ h3,
 h4,
 h5,
 h6,
-p {
-  margin: 0;
-  padding: 0;
-}
+p,
+a,
+button,
 ul,
-ol {
+ol
+ {
+  margin: 0;
+  padding: 0;
   list-style: none;
-  padding: 0;
-  margin: 0;
-}
-a {
   text-decoration: none;
-  padding: 0;
-  margin: 0;
+  border: none;
+  background-color: transparent;
 }
 /*===================general==================== */
 
