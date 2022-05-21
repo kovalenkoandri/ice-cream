@@ -5,6 +5,6 @@
     const expanded = button.getAttribute('aria-expanded') === 'true' || false;
     button.classList.toggle('button--is-open');
     button.setAttribute('aria-expanded', !expanded);
-    menu.classList.toggle('nav--is-open');
+    menu.classList.toggle('header--is-open');
   });
 })();
