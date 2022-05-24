@@ -1,0 +1,77 @@
+.about {
+  @extend %section;
+  // position: relative;
+}
+
+.about__p {
+  @extend %section__p;
+}
+
+.about__h2 {
+  @extend %products__h2;
+}
+
+.about__img1 {
+  margin-right: auto;
+  margin-top: 32px;
+  margin-left: auto;
+}
+
+// .about__img2 {
+//   position: absolute;
+//   object-fit: contain;
+//   top: 534px;
+//   width: 100%;
+//   margin-left: -20px;
+// }
+
+.about__text1 {
+  margin-top: 40px;
+  width: 220px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px; // if value changed also need to change below value
+  --font-size-about__text1: 12px;
+  line-height: 1.58; // if value changed also need to change below value
+  --line-height-about__text1: 1.58;
+  color: #000000;
+  text-align: left;
+}
+
+.pre-fringilla {
+  display: block;
+  white-space: pre;
+  margin-bottom: calc(-1 * var(--font-size-about__text1) * var(--line-height-about__text1));
+}
+
+.about__text2::before {
+  content: '';
+  display: block;
+  width: 320px;
+  height: 133px;
+  position: absolute;
+  background-image: url(../images/milk-320-133.png);
+  background-position: left 0 top 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -48px;
+  margin-left: -20px;
+  z-index: -1;
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/milk-640-266.png);
+    background-size: 320px 133px;
+  }
+}
+
+.about__text2 {
+  @extend .about__text1;
+  color: #907e82;
+  position: relative;
+}
+
+.about__br::after {
+  display: block;
+  content: '';
+  margin-bottom: var(--font-size-about__text1);
+}
