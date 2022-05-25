@@ -75,3 +75,32 @@
   content: '';
   margin-bottom: var(--font-size-about__text1);
 }
+
+.about-btn-wrapper {
+  text-align: left;
+}
+
+.about-btn-container {
+  margin-top: 20px;
+  width: 176px;
+  height: 44px;
+  background-color: #fff;
+  border-radius: 22px;
+  display: inline-block;
+  text-align: center;
+}
+
+.about-read-more {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #d41443;
+  height: 100%;
+}
+
+.about-icon {
+  width: 4.43px;
+  height: 8px;
+  margin-left: 13.62px;
+}

@@ -1,0 +1,78 @@
+.advantages {
+  @extend %section;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  text-align: left;
+}
+
+.advantages__li:not(:first-of-type) {
+  margin-top: 32px;
+}
+
+%advantages__before {
+  content: '';
+  display: block;
+  margin-bottom: 16px;
+  height: 50px;
+}
+
+.advantages__721::before {
+  @extend %advantages__before;
+  width: 33px;
+  background-image: url(../images/721-33-50.png);
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/721-66-100.png);
+    background-size: 33px 50px;
+  }
+}
+
+.advantages__16KG::before {
+  @extend %advantages__before;
+  width: 50px;
+  background-image: url(../images/16kg-50-50.png);
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/16kg-100-100.png);
+    background-size: 50px 50px;
+  }
+}
+
+.advantages__84::before {
+  @extend %advantages__before;
+  width: 44px;
+  background-image: url(../images/84-44-50.png);
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/84-88-100.png);
+    background-size: 44px 50px;
+  }
+}
+
+%advantages__span {
+  display: block;
+  font-family: 'Titan One';
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
+}
+
+.advantages__721 {
+  @extend %advantages__span;
+}
+
+.advantages__16KG {
+  @extend %advantages__span;
+}
+
+.advantages__84 {
+  @extend %advantages__span;
+}
+
+.advantages__p {
+  margin-top: 15px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+}
