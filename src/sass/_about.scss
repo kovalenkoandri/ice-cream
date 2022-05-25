@@ -1,10 +1,12 @@
 .about {
   @extend %section;
-  // position: relative;
+  background-color: #91676b;
+  background-color: #FFF5F6;
 }
 
 .about__p {
   @extend %section__p;
+  margin-top: 0;
 }
 
 .about__h2 {
@@ -16,14 +18,6 @@
   margin-top: 32px;
   margin-left: auto;
 }
-
-// .about__img2 {
-//   position: absolute;
-//   object-fit: contain;
-//   top: 534px;
-//   width: 100%;
-//   margin-left: -20px;
-// }
 
 .about__text1 {
   margin-top: 40px;
@@ -40,8 +34,7 @@
 }
 
 .pre-fringilla {
-  display: block;
-  white-space: pre;
+  @extend .pre;
   margin-bottom: calc(-1 * var(--font-size-about__text1) * var(--line-height-about__text1));
 }
 
@@ -74,10 +67,6 @@
   display: block;
   content: '';
   margin-bottom: var(--font-size-about__text1);
-}
-
-.about-btn-wrapper {
-  text-align: left;
 }
 
 .about-btn-container {

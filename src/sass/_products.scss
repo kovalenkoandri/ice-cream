@@ -1,5 +1,8 @@
 .products {
   @extend %section;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
 }
 
 .products__p {
@@ -10,13 +13,25 @@
   @extend %products__h2;
 }
 
+@mixin products__color($color: #ffb8ca) {
+  background-color: $color;
+}
+
 .products__li {
   margin-top: 140px;
   margin-left: auto;
   margin-right: auto;
   padding: 1px 40px 40px 40px;
   border-radius: 24px;
-  background-color: #ffb8ca;
+  @include products__color();
+}
+
+.products__li:nth-of-type(2) {
+  @include products__color(#F0D1A5);
+}
+
+.products__li:last-of-type {
+  @include products__color(#C2E297);
 }
 
 .products__li:first-of-type {

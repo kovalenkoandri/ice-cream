@@ -1,8 +1,8 @@
 .advantages {
   @extend %section;
-  padding-top: 40px;
   padding-bottom: 80px;
-  text-align: left;
+  background-color: #91676b;
+  background-color: #FFF5F6;
 }
 
 .advantages__li:not(:first-of-type) {
