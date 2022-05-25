@@ -1,0 +1,52 @@
+.reviews {
+  @extend %section;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.reviews__img {
+  display: inline-block;
+}
+
+.reviews__div {
+  background-color: #fafafa;
+  position: relative;
+}
+
+.reviews__quotes::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 53px;
+  top: 30px;
+  width: 54px;
+  height: 40px;
+  background-image: url(../images/marks-54-40.png);
+  background-repeat: no-repeat;
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/marks-108-80.png);
+    background-size: 54px 40px;
+  }
+}
+
+.reviews__quotes {
+  width: 180px;
+  display: inline-block;
+  white-space: pre-line;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 31px;
+  color: #000;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #fafafa,
+    #fafafa 30px,
+    #E1E1E1 30px,
+    #E1E1E1 31px,
+  );
+}
+
+.reviews__quotes::after {
+  content: '';
+}
