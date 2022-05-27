@@ -9,8 +9,10 @@
 }
 
 .reviews__div {
-  background-color: #fafafa;
+  background-color: #792020;
   position: relative;
+  margin-top: 32px;
+  padding: 74px 50px 17px;
 }
 
 .reviews__quotes::before {
@@ -40,13 +42,11 @@
   color: #000;
   background-image: repeating-linear-gradient(
     to bottom,
-    #fafafa,
-    #fafafa 30px,
+    // #fafafa,
+    red,
+    // #fafafa 30px,
+    red 30px,
     #E1E1E1 30px,
     #E1E1E1 31px,
   );
-}
-
-.reviews__quotes::after {
-  content: '';
 }

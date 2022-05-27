@@ -4,6 +4,23 @@
   background-image: linear-gradient(#fff5f6 40%, #fff 40%);
 }
 
+.swiper {
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide {
+  font-size: medium;
+  background-color: #91676b;
+}
+
+.gallery-cover {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .gallery__div {
   margin-right: auto;
   margin-left: auto;

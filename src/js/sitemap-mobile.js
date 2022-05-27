@@ -6,5 +6,7 @@
     button.classList.toggle('button--is-open');
     button.setAttribute('aria-expanded', !expanded);
     menu.classList.toggle('header--is-open');
+    const scrollLockMethod = !expanded ? 'disableBodyScroll' : 'enableBodyScroll';
+    bodyScrollLock[scrollLockMethod](document.body);
   });
 })();

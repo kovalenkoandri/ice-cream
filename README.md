@@ -78,7 +78,21 @@ Customer Reviews
 Contacts
 Footer
 
-Hero Header
+Hero Header 
+branch header mobile version 1
+pr => merge at least 1 reviewer
+pull main
+branch header mobile version 1 fix
+pr => merge at least 1 reviewer
+/dist => html validate
+splitted photo => teen eye
+grid or masonry => gallery
+base => photo 
+swiper or click slider + jquery
+@media (orientation: landscape) { }
+от 320 до 480 тянетсяб потом фикс
+sunday = mobile version
+tuesday all
 <!-- У шапці знаходиться лого, меню навігації та кнопка. На мобільній та планшетній версії меню навігації відображається, як бокова панель, що виїжджає. Мобільне меню фіксоване, висота відповідає висоті в'юпорту.
 
 Меню реалізовано якірними посиланнями, які ведуть до відповідних розділів макета.
@@ -172,3 +186,4 @@ Footer
 Наявність слайдерів, анімацій та модальних вікон не є обов'язковою, і реалізується командою за наявності бажання та часу на виконання. -->
 
 
+https://validator.w3.org/
